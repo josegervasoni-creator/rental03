@@ -1,0 +1,16 @@
+{
+  "name": "rental03",
+  "version": "2.0.0",
+  "private": true,
+  "description": "RENTAL 03 — Sistema profesional de alquiler de equipos de cine y fotografía",
+  "type": "module",
+  "main": "server/index.js",
+  "scripts": {
+    "start": "node server/index.js",
+    "seed": "node server/seed.js"
+  },
+  "dependencies": {
+    "better-sqlite3": "^11.3.0",
+    "express": "^4.19.2"
+  }
+}
